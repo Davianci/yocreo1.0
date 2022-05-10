@@ -1,0 +1,89 @@
+@charset "utf-8";
+/*contenedor central de los elementos de la página*/
+#centro{
+	width: 100%;
+	position: absolute;
+	margin: auto;
+	z-index: 2;
+	top:50px;
+}
+#logo{
+	
+	margin: auto;
+	width: 286px;
+}
+#text{
+	margin: auto;
+	margin-top: 20px;
+	width:600px;
+	text-align:justify;
+}
+/*contenedor de los botones de navegación principal*/
+#nav{
+	margin: auto;
+	margin-top: 20px;
+	width: 820px;
+	position: static;
+	height: 200px;	
+}
+/*cada uno de los botones del menú*/
+.ind_bot{
+	z-index: 4;
+	position: relative;
+	
+	margin:0px;
+}
+#ind_bot1{
+	left:0px;
+	top:0px;
+	width:280px;
+}
+#ind_bot2{
+	left:230px;
+	top:60px;
+	z-index:3;
+	width:350px;
+}
+#ind_bot3{
+	left:550px;
+	top:-15px;
+	width:240px;
+}
+.img_bot{
+	position: absolute;
+	z-index:3;
+}
+/* imagenes que se encuentran debajo de los botones*/
+.img_bajo{
+	position: absolute;
+	z-index:2;
+
+}
+#img_bajo1{
+	top:7px;
+	left:5px;
+	transition: top 3s;
+-webkit-transition: top 3s; /* Safari */
+-moz-transition: top 3s;/*mozila*/
+-o-transition: top 3s;/*opera*/
+	
+}
+#img_bajo2{
+	top:3px;
+	left:10px;
+		transition: top 3s;
+-webkit-transition: top 3s; /* Safari */
+-moz-transition: top 3s;/*mozila*/
+-o-transition: top 3s;/*opera*/
+	
+}
+#img_bajo3{
+	top:11px;
+	left:10px;
+		transition: top 3s;
+-webkit-transition: top 3s; /* Safari */
+-moz-transition: top 3s;/*mozila*/
+-o-transition: top 3s;/*opera*/
+	
+}
+

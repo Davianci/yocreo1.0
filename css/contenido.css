@@ -1,0 +1,254 @@
+@charset "utf-8";
+
+
+#nav{
+	position: absolute;
+	left:0px;
+	top:0px;
+	width:300px;
+	z-index: 3;
+}
+#titulo{
+	position: relative;
+	float:left;
+	clear: both;
+	top:0px;
+	left:0px;
+	z-index:3;
+}
+#bot1{
+	position: relative;
+	float:left;
+	clear: both;
+	top:-20px;
+	left:50px;
+	z-index:2;
+	transition: top 1s, z-index 1s;
+	-webkit-transition: top 1s, z-index 1s;
+	-moz-transition: top 1s, z-index 1s;
+	-o-transition: top 1s, z-index 1s;
+
+
+}
+#bot1:hover{
+	z-index:4;
+	top:-30px;
+}
+#bot2{
+	position: relative;
+	float:left;
+	clear: both;
+	top:-40px;
+	left:30px;
+	z-index:1;
+	transition: top 1s, z-index 1s;
+	-webkit-transition: top 1s, z-index 1s;
+	-moz-transition: top 1s, z-index 1s;
+	-o-transition: top 1s, z-index 1s;
+}
+#bot2:hover{
+	z-index:3;
+	top:-50px;
+}
+
+#texto{
+	position: relative;
+	float:right;
+	top:20px;
+	right: 200px;
+	width: 700px;
+	text-align: justify;
+	clear: both;
+	vertical-align: 
+	
+}
+#texto a{
+	text-decoration: none;
+}
+#texto a:hover{
+	text-decoration: none;
+	color: #fff;
+}
+#logo{
+	margin: auto;
+	position: relative;
+	top: 20px;
+	margin-bottom: 80px;
+	z-index: 4;
+	width: 120px;
+	clear:both;
+}
+#contacto{
+	position: relative;
+	margin: auto;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	width: 200px;
+	height: 50px;
+	background-color: #61a4d3;
+	border-radius: 15px;
+	clear:both;
+	
+}
+#contacto p{
+	position:relative;
+	text-align: center;
+	color: #fff;
+	font-family: sprinkles;
+	font-size: x-large;
+	margin: 10px;
+	top:10px;
+	vertical-align: middle;
+}
+#nav_taller{
+	margin: auto;
+	position: relative;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.opciones{
+	float: left;
+	position: relative;
+	margin:20px 55px;
+}
+/*contiene varios slide*/
+
+#content_slide{
+	position: relative;
+	margin: auto;
+	width: 1000px;
+	overflow: hidden;
+	clear: both;
+	margin-top: 20px;
+	top: 10px; 
+}
+#porta_slide{
+	position: relative;
+	left: 0px;
+	width: 3000px;
+	height:263px;
+transition:left 2s;
+	-webkit-transition:left 2s;
+	-moz-transition:left 2s;
+	-o-transition:left 2s;
+}
+/* solo un slide*/
+#slide_taller{
+position: relative;
+ margin: auto;
+ width:1000px;
+ height: 263px;
+ float: left;	
+}
+#slide{
+position: relative;
+ margin: auto;
+ width:1000px;
+ height: 263px;
+ clear: both; 
+ margin-top: 20px;
+top: 40px;
+}
+/*icono del slide*/
+.adorno{
+	position: relative;
+	margin:0px;
+	z-index: 2;
+
+}
+.adorno img{
+	position: relative;
+	top:110px;
+	left:100px;
+}
+/*iconos de los slide*/
+.arte{
+	background-image: url(../imagenes/mancha.png);
+	width: 245px;
+	height: 262px;
+}
+.lab{
+background-image: url(../imagenes/lab.png);
+width: 229px;
+height: 263px;
+}
+.dise{
+background-image: url(../imagenes/dise.png);
+width: 221px;
+height: 270px;
+}
+#slide_izq{
+
+	float:left;
+	
+}
+#slide_centro{
+	position: relative;
+	float:left;
+	margin:0px;
+	z-index: 1;
+	width: 750px;
+	height: 263px;
+	top:0px;
+	left: -95px;
+	z-index: 1;
+}
+/*color del slide*/
+.color_arte{
+background-color: #ff00cc;
+}
+.color_dise{
+background-color: #fff600;
+}
+.color_lab{
+background-color: #0079ff;
+}
+
+#cont_fotos{
+	width: 680px;
+	height: 250px;
+	overflow: hidden;
+	margin: 6px auto;
+	background-color: #fff;
+}
+.fotos{
+	position: relative;
+	float: left;
+	left: 0%;
+	transition:left 2s;
+	-webkit-transition:left 2s;
+	-moz-transition:left 2s;
+	-o-transition:left 2s;
+
+}
+.fotos img{
+	margin-right: 10px;
+	float: left;
+	position: relative;
+}
+/*css slide arte*/
+#fotos1{
+		width: 900%;
+}
+/*css slide experimentos*/
+#fotos2{
+		width: 800%;
+}
+/*css slide diseño*/
+#fotos3{
+		width: 300%;
+}
+/*css slide capacitaciones*/
+#fotos4{
+		width: 750%;
+}
+/*css slide fiestas*/
+#fotos5{
+		width: 1300%;
+}
+#slide_dere{
+	float:right;
+	top:-262px;
+	left: -3px;
+
+}

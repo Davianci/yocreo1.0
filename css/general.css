@@ -1,0 +1,87 @@
+@charset "utf-8";
+@font-face{
+	font-family: sprinkles;
+	src:url(../fuentes/sprinklescolors.ttf);
+
+}
+img{
+	border: 0;
+}
+
+body{
+top:0px;
+margin:0px;
+background-color: #FFF;
+
+
+}
+h1{
+	font-family: sprinkles;
+	text-align: center;
+}
+input, select{
+	height: 35px;
+	margin:10px;
+	width: 200px;
+	font-family: verdana;
+	border-color: #0079ff;
+	border-radius: 25px;
+	border:1;
+
+}
+input::-webkit-input-placeholder {
+    color: #61a4d3;
+    font-size: 16px;
+}
+input::-moz-placeholder {
+    color:  #61a4d3;
+    font-size: 16px;
+}
+input::-o-placeholder {
+    color:  #61a4d3;
+    font-size: 16px;
+}
+input::-0-placeholder {
+    color:  #61a4d3;
+    font-size: 16px;
+}
+p{
+	font-family: century gothic;
+}
+form{
+	text-align: center;
+}
+/* estilo para lso datos de contacto*/
+.dat_contacto{
+	font-family: verdana;
+	text-align: center;
+}
+#head{
+	right: 0px;
+	float:right;
+	position:absolute;
+	margin:10px;
+	clear: both;
+}
+
+#fb{
+	margin:0px 10px;
+}
+#shadow{
+	background-color:#000; 
+	filter:Alpha(opacity=80);
+	opacity:0.8; width:100%;
+	 height:1300px; 
+	 top:0px; 
+	 bottom:0px; 
+	 position:absolute;
+	 z-index:10;
+}
+#ver{
+	width:800px;
+	 height:600px;
+	 position:absolute;
+	 z-index:11;
+	 top: 420px;
+	 left:100px
+}
