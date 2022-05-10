@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="keywords" content="yo creo, contacto, información, aprendizaje, niños, creatividad, uniendo corazones, arte, diseño, experimentos, talleres, capacitaciones, fiestas,familias, padres, hijos">
+	<meta name="description" content="Espacio para acercarnos a ti y ofrecerte una información personalizada">
+	<meta name="author" content="Diana Carolina Albán Botero">
+	<title>Talleres Yo creo</title>
+	<link rel="stylesheet" type="text/css" href="css/contenido.css">
+	<link rel="stylesheet" type="text/css" href="css/general.css">
+	<scrip	t type="text/javascript" src="js/analitycs.js"></script>
+	<script type="text/javascript" src="js/slider.js"></script>
+	<script type="text/javascript" src="js/shadow.js"></script>
+	<script type="text/javascript" src="js/avanza.js"></script>
+	<script type="text/javascript" src="js/formularios.js"></script>
+	<script type="text/javascript" src="js/chat.js"></script>
+</head>
+<body>
+	<div id="head"><a href="contacto.html">Contácto</a><a href="https://www.facebook.com/YoCreoUniendoCorazones"><img src="imagenes/fblogo.png" id="fb"></a></div>
+	
+	<div id="nav">
+		<div id="titulo"><a href="talleres.html"><img src="imagenes/titulotaller.png" alt="talleres"></a></div>
+		<div id="bot1"><a href="capacitaciones.html"><img src="imagenes/bottallercapa.png" alt="talleres"></a></div>
+		<div id="bot2"><a href="fiestas.html"><img src="imagenes/bottallerfiestas.png" alt="talleres"></a></div>
+	</div>
+	<div id="texto"><div id="logo"><a href="index.html"><img src="imagenes/logopeque.png"></a></div>
+	<h1>Puedes contactarnos a</h1>
+	<p class="dat_contacto">creanimus.yocreo@gmail.com</p>
+	<p class="dat_contacto">Teléfonos: (57) 312 3777862 /(57-1) 750 1999</p><br/>
+
+	<p class="dat_contacto">Ó Diligencia los datos</p><br/>
+		<form method="post" action="php/registra.php" autocomplete="on">
+			<input type="text" name="nombres" onkeypress="return letras(event)" placeholder=" Nombre" required>
+			<input type="text" name="apellidos" onkeypress="return letras(event)"  placeholder=" Apellidos" required><br />
+			<input type="email" id="email" name="email"  placeholder=" E-mail" required>
+			<input type="email" id="rep-email" name="rep-email" placeholder=" Repetir E-mail" required onblur="check(this.value)" autocomplete="off"><br />
+			<input type="text" name="telefono" onkeypress="return numeros(event)" placeholder=" Teléfono">
+			<input type="text" name="celular" onkeypress="return numeros(event)"  placeholder=" Celular" required><br />
+			<select name="evento" required>
+				<option value="#">Evento</option>
+				<option value="taller">Taller</option>
+				<option value="capacitacion">Capacitacion</option>
+				<option value="fiesta">Fiestas infantiles</option>
+			</select>
+			<select name="participantes" required>
+				<option value="#">Nº participantes</option>
+				<option value="1-5">1-5</option>
+				<option value="6-10">6-10</option>
+				<option value="11-15">11-15</option>
+				<option value="16-20">16-20</option>
+				<option value="21-25">21-25</option>
+				<option value="25-30">25-30</option>
+				<option value="+30">25-30</option>
+			</select><br/>
+			<input type="submit" value="Enviar" >
+		</form>
+	</div>
+
+</body>
+</html>
